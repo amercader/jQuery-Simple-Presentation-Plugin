@@ -84,8 +84,8 @@ Any element with the class "incremental" will be shown one step at the time:
 
 Events
 ------
-You can listen to two types of events. `show_slide.slide` will be fired every
-time a slide is shown, but `load_slide.slide` only the first time.
+You can listen to two types of events. `show_slide.slides` will be fired every
+time a slide is shown, but `load_slide.slides` only the first time.
 
 
     <div class="slide" id="slide-1">
