@@ -1,0 +1,21 @@
+.slides-nav{
+    position: absolute;
+    width: 100px;
+    cursor: pointer;
+    background: none;
+    z-index: 100;
+}
+
+#slides-next:hover{
+    background: transparent url("nav.png") -100px center no-repeat;
+}
+
+#slides-prev:hover{
+    background: transparent url("nav.png") 0 center no-repeat;
+}
+
+.slide {
+    margin: 2em;
+    text-align: center;
+    display: none;
+}
